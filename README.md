@@ -22,3 +22,5 @@ Cocok untuk sistem tertanam (embedded systems) di mana beberapa tugas dapat dikh
 SMP cocok untuk aplikasi yang membutuhkan kinerja paralel tinggi tetapi memiliki batasan skalabilitas.
 
 AMP cocok untuk aplikasi tertanam atau sistem spesifik dengan kebutuhan tugas yang terdistribusi, tetapi rentan terhadap bottleneck dan kegagalan di CPU utama.
+
+Arsitektur ini memungkinkan peningkatan kinerja komputasi dengan cara menjalankan beberapa tugas secara paralel (parallel processing). Pemilihan antara multiprocessing simetris atau asimetris tergantung pada kebutuhan spesifik aplikasi, seperti efisiensi pengelolaan sumber daya atau kebutuhan kontrol sentral.
