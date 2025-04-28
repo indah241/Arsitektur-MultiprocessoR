@@ -18,3 +18,7 @@ Fungsi:
 Main CPU berfungsi sebagai pengendali utama, sedangkan sub-CPU digunakan untuk tugas tertentu (spesialisasi).
 
 Cocok untuk sistem tertanam (embedded systems) di mana beberapa tugas dapat dikhususkan untuk prosesor tertentu.
+## Kesimpulan Umum
+SMP cocok untuk aplikasi yang membutuhkan kinerja paralel tinggi tetapi memiliki batasan skalabilitas.
+
+AMP cocok untuk aplikasi tertanam atau sistem spesifik dengan kebutuhan tugas yang terdistribusi, tetapi rentan terhadap bottleneck dan kegagalan di CPU utama.
